@@ -66,9 +66,7 @@ public class Bibliotheque {
     if (livre != null) {
       for (Entry<GenreLivre, ArrayList<Livre> > entry : livres.entrySet() ) {
         for (int i = 0; i < entry.getValue().size(); i++) {
-          if (entry.getValue().get(i).equals(livre)) {
-            return true;
-          }
+         
         }
       }
     }
